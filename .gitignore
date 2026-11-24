@@ -1,0 +1,28 @@
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+configuracoes/segredos.php
+**/segredos.php
+
+# Dependências
+node_modules/
+vendor/
+
+# Logs
+logs/*.log
+
+# Arquivos enviados pelos usuários
+envios/perfis/*
+envios/materiais/*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Backups e exportações locais
+*.sql
+!studia.sql
+*.zip

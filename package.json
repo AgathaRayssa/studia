@@ -1,0 +1,28 @@
+
+{
+  "name": "studia",
+  "version": "1.0.0",
+  "description": "Sistema de organização acadêmica Studia",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild frontend/inicio.js --bundle --outfile=assets/js/inicio.js --format=iife"
+  },
+  "keywords": [
+    "studia",
+    "organizacao-academica",
+    "react",
+    "php"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
